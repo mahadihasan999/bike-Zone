@@ -1,0 +1,13 @@
+.fa-star.filled{
+    color: gold;
+  
+ }
+ .fa-star.empty{
+    color: lightgray;
+ }
+
+
+ .body
+ {
+    overflow-x: hidden;
+ }
