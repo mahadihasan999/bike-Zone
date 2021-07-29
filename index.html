@@ -20,37 +20,26 @@
     <link rel="stylesheet" href="main.js">
 </head>
 
-<body>
+<body class="bikefamily">
     <!-- header part -->
-    <header class="text-light bg-dark pb-5">
+    <header class="text-light bg-dark">
         <div class="container p-5">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <button class="navbar-brand navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-end  ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav  ps-5 ">
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="">News</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="">Contact</a>
-                        </li>
-                    </ul>
-                    <div class="ps-5">
-                        <button class=" text-light btn buttoncolor ml-5 ">Login</button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link text-light" href="#">Shop</a>
+                        <a class="nav-item nav-link text-light" href="#">About</a>
+                        <a class="nav-item nav-link text-light" href="#">Contact</a>
                     </div>
+                    <div class="ps-5"><button class="btn btn buttoncolor text-light">Login</button></div>
                 </div>
             </nav>
+
             <!-- slider part -->
 
             <div class="row d-flex align-items-center">
@@ -64,7 +53,7 @@
                     <!-- Button trigger modal -->
                     <button type="button" class="btn buttoncolor text-light" data-toggle="modal"
                         data-target="#modalAbandonedCart">
-                        purchase
+                        Purchase
                     </button>
 
                     <!-- Modal -->
@@ -123,20 +112,20 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="p-3 d-flex align-items-center justify-content-between">
 
-                        <img src="images/feature-bike.jpg" alt="" class="img-thumbnail grayscale">
+                        <img src="images/feature-bike.jpg" alt="" class="img-thumbnail grayscale border-0">
                     </div>
 
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="p-3  d-flex align-items-center justify-content-between">
 
-                        <img src="images/feature-bike.jpg" alt="" class="img-thumbnail">
+                        <img src="images/feature-bike.jpg" alt="" class="img-thumbnail border-0"">
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="p-3  d-flex align-items-center justify-content-between">
+                <div class=" col-lg-4 col-md-6">
+                        <div class="p-3  d-flex align-items-center justify-content-between">
 
-                        <img src="images/feature-bike.jpg" alt="" class="img-thumbnail grayscale">
+                            <img src="images/feature-bike.jpg" alt="" class="img-thumbnail grayscale border-0"">
                     </div>
                 </div>
 
@@ -144,87 +133,87 @@
         </section>
 
         <!-- Happy Clients -->
-        <section class="container my-5" id="shoes">
-            <div class="m-5 text-center">
-                <h1>Happy <span class="text-warning">Clients says </span></h1>
-            </div>
-
-            <div class="row row-cols-1 row-cols-md-3 g-4  ">
-                <div class="col col-lg-4 col-md-6">
-                    <div class="card h-80 shadow p-3 mb-5 bg-body rounded">
-                        <img src="images/user-1.png" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <p class="card-text">Slate helps you see how
-                                many more days you need
-
-                                to work to reach your financial
-
-                                goal for the month and year</p>
-
-                            <div>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star empty"></i>
+        <section class=" container my-5" id="shoes">
+                            <div class="m-5 text-center">
+                                <h1>Happy <span class="text-warning">Clients says </span></h1>
                             </div>
 
-                            <p>Regina Miles</p>
-                            <p class="text-warning">Regina Miles</p>
+                            <div class="row row-cols-1 row-cols-md-3 g-4  ">
+                                <div class="col col-lg-4 col-md-6">
+                                    <div class="card h-80 shadow p-3 mb-5 bg-body rounded">
+                                        <img src="images/user-1.png" class="card-img-top" alt="...">
+                                        <div class="card-body text-center">
+                                            <p class="card-text">Slate helps you see how
+                                                many more days you need
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-lg-4 col-md-6">
-                    <div class="card h-80 shadow p-3 mb-5 bg-body rounded">
-                        <img src="images/user-2.png" class="card-img-top" alt="...">
-                        <div class="card-body  text-center">
-                            <p class="card-text">Slate helps you see how
+                                                to work to reach your financial
 
-                                many more days you need
+                                                goal for the month and year</p>
 
-                                to work to reach your financial
+                                            <div>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star empty"></i>
+                                            </div>
 
-                                goal for the month and year</p>
-                            <div>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star empty"></i>
+                                            <p>Regina Miles</p>
+                                            <p class="text-warning">Regina Miles</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-lg-4 col-md-6">
+                                    <div class="card h-80 shadow p-3 mb-5 bg-body rounded">
+                                        <img src="images/user-2.png" class="card-img-top" alt="...">
+                                        <div class="card-body  text-center">
+                                            <p class="card-text">Slate helps you see how
+
+                                                many more days you need
+
+                                                to work to reach your financial
+
+                                                goal for the month and year</p>
+                                            <div>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star empty"></i>
+                                            </div>
+
+                                            <p>Regina Miles</p>
+                                            <p class="text-warning">Regina Miles</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-lg-4 col-md-6">
+                                    <div class="card h-80 shadow p-3 mb-5 bg-body rounded">
+                                        <img src="images/user-3.png" class="card-img-top" alt="...">
+                                        <div class="card-body  text-center">
+                                            <p class="card-text">Slate helps you see how
+
+                                                many more days you need
+
+                                                to work to reach your financial
+
+                                                goal for the month and year</p>
+                                            <div>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star empty"></i>
+                                            </div>
+
+                                            <p>Regina Miles</p>
+                                            <p class="text-warning">Regina Miles</p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
-
-                            <p>Regina Miles</p>
-                            <p class="text-warning">Regina Miles</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-lg-4 col-md-6">
-                    <div class="card h-80 shadow p-3 mb-5 bg-body rounded">
-                        <img src="images/user-3.png" class="card-img-top" alt="...">
-                        <div class="card-body  text-center">
-                            <p class="card-text">Slate helps you see how
-
-                                many more days you need
-
-                                to work to reach your financial
-
-                                goal for the month and year</p>
-                            <div>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star empty"></i>
-                            </div>
-
-                            <p>Regina Miles</p>
-                            <p class="text-warning">Regina Miles</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
         </section>
 
         <!-- Ask question part -->
@@ -342,19 +331,18 @@
 
         <section class="container my-5" id="shoes">
             <div class="m-5 text-center">
-                <h1><span class="text-warning">Top</span> Bike</h1>
+                <h1><span class="co"> Helmet collection</span> </h1>
             </div>
             <div class="row row-cols-1 row-cols-md-3 g-4  ">
                 <div class="col col-lg-4 col-md-6">
                     <div class="card h-80 shadow p-3 mb-5 bg-body rounded">
                         <img src="images/top-bikes/1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Supply 360</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                a little bitfdfdfdf fdfd longer.</p>
+                            <h5 class="card-title">MT 370</h5>
+                            <p class="card-text">MT Stinger Helmets full face helmet with ECE & DOT approva</p>
                             <h1>$420 </h1>
                             <div class="d-flex align-items-center">
-                                <button class="btn btn-warning">Buy Now <i class="fas fa-angle-right"></i></button>
+                                <button class="btn buttoncolor">Buy Now <i class="fas fa-angle-right"></i></button>
                             </div>
                         </div>
                     </div>
@@ -363,11 +351,10 @@
                     <div class="card h-80 shadow p-3 mb-5 bg-body rounded">
                         <img src="images/top-bikes/2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Nike 540</h5>
-                            <p class="card-text">This is a short card Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Maiores, dolorum!.</p>
+                            <h5 class="card-title">FAST 540</h5>
+                            <p class="card-text">Best Riding Helmet Protect yourself like a pro. Safty First !.</p>
                             <h1>$420</h1>
-                            <button class="btn btn-warning">Buy Now <i class="fas fa-angle-right"></i></button>
+                            <button class="btn buttoncolor">Buy Now <i class="fas fa-angle-right"></i></button>
                         </div>
                     </div>
                 </div>
@@ -375,11 +362,10 @@
                     <div class="card h-80 shadow p-3 mb-5 bg-body rounded">
                         <img src="images/top-bikes/3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Apex 580</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional content.</p>
+                            <h5 class="card-title">SUZUKI 210</h5>
+                            <p class="card-text">This helmet sports the special MotoGP livery, in blue shade. </p>
                             <h1>$420</h1>
-                            <button class="btn btn-warning">Buy Now <i class="fas fa-angle-right"></i></button>
+                            <button class="btn buttoncolor">Buy Now <i class="fas fa-angle-right"></i></button>
                         </div>
                     </div>
                 </div>
@@ -387,19 +373,19 @@
 
 
 
-        <section py-5 id="Updates" style="height: 350px;" class="container bg-info buttoncolor text-center  rounded-3">
-            <div class="py-5">
-                <h1>Want updates when there's BikeRadar news?</h1>
+        <section py-5 id="Updates" style="height: 350px;" class="container bg-dark buttoncolor text-center  rounded-3">
+            <div class="py-5 text-light">
+                <h1>Want updates when there's Latest bike news?</h1>
                 <h4 class="py-2">Sign up to receive our newsletter!</h4>
-                <input type="text" placeholder="You Email Address">
-                <button class="btn btn-warning">Sign me up!</button>
+                <input type="text" placeholder="You Email Address" class="pb-1">
+                <button class="btn buttoncolor">Sign me up!</button>
                 <div class="endcontent">
-                    <div class="py-3 h3">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-pinterest"></a>
-                        <a href="#" class="fa fa-linkedin"></a>
-                        <a href="#" class="fa fa-instagram"></a>
+                    <div class="py-3 h3 ">
+                        <a href="#" class="fa fa-facebook text-light"></a>
+                        <a href="#" class="fa fa-twitter text-light"></a>
+                        <a href="#" class="fa fa-pinterest text-light"></a>
+                        <a href="#" class="fa fa-linkedin text-light"></a>
+                        <a href="#" class="fa fa-instagram text-light"></a>
 
 
                     </div>
