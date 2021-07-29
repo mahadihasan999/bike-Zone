@@ -20,6 +20,11 @@
    -webkit-filter: grayscale(100%);
    filter: grayscale(100%);
  }
+
+ 
  .bg-dark{
    background-color: #264653 !important;
+   padding-bottom: 150px;
   }
+
+  
